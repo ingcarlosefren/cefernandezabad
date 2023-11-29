@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://ingcarlosefren.github.io/cefernandezabad",
+  "homepage": "https://ingcarlosefren.github.io/cefernandezabad",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
