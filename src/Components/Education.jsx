@@ -1,9 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import lesMisData from "../images/lesMisData.json";
-import PropTypes from "prop-types";
 
-const Home = ({ name, title }) => {
+const Education = () => {
   const svgRef = useRef(null);
 
   useEffect(() => {
@@ -80,27 +79,16 @@ const Home = ({ name, title }) => {
     }
   }, []);
 
-  
   return (
-    <section id="home" className="min-height">
+    <section id="Education" className="min-height">
         <svg ref={svgRef} style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", display: "inline-block"}}></svg>
         <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-            <h1>{name}</h1>
-            <h2>{title}</h2>
+            <h1>Education</h1>
+            <h2>University of North Texas</h2>
         </div>
     </section>
   
   );
 };
 
-Home.defaultProps = {
-    name: "",
-    title: "",
-  };
-  
-  Home.propTypes = {
-    name: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-  };
-
-export default Home;
+export default Education;

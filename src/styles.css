@@ -102,6 +102,10 @@ a:hover {
   color: #4e567e;
 }
 
+a.header{
+  color: white;
+  text-decoration: none;
+}
 .container {
   display: grid;
   grid-gap: 20px;
