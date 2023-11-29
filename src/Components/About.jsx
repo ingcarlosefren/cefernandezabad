@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/ligthBackground.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Foto de <a href='https://unsplash.com/es/@sharonmccutcheon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Alexander Grey</a> en <a href='https://unsplash.com/es/fotos/fotografia-bokeh-62vi3TG5EDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>";
 
 /**
  * Sort description that expands on your title on the Home component.

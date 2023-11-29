@@ -20,7 +20,8 @@ import "./styles.css";
  * components that need that information.
  *
  * Update the values below with your information.
- *
+ * Foto de <a href="https://unsplash.com/es/@sortino?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joshua Sortino</a> en <a href="https://unsplash.com/es/fotos/fotografia-del-techo-a-vista-de-gusano-LqKhnDzSF-8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
@@ -35,8 +36,8 @@ const siteProps = {
   youTube: "Code",
 };
 
-const primaryColor = "#4E567E";
-const secondaryColor = "#D2F1E4";
+const primaryColor = "#31B49E"; // 
+const secondaryColor = "#32D4AF"; //
 
 const App = () => {
   return (

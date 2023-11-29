@@ -20,9 +20,9 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+import image from "../images/RobotHand.jpg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const imageAltText = "Foto de <a href='https://unsplash.com/es/@possessedphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Possessed Photography</a> en <a href='https://unsplash.com/es/fotos/foto-en-primer-plano-del-brazo-robot-blanco-jIBMSMs4_kA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash'>Unsplash</a>";
 
 const Home = ({ name, title }) => {
   return (
