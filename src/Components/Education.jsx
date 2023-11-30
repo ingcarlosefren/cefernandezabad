@@ -84,7 +84,7 @@ const Education = () => {
         <svg ref={svgRef} style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", display: "inline-block"}}></svg>
         <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
             <h1>Education</h1>
-            <h2>University of North Texas</h2>
+            <h2>University of Almería</h2>
         </div>
     </section>
   
