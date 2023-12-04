@@ -24,19 +24,49 @@ const imageAltText = "Foto de <a href='https://unsplash.com/es/@sharonmccutcheon
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a Data Engineer with experience in building data pipelines, lambda functions, SQL queries, and managing infrastructure as code in AWS. I am currently working for a technology consulting company.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python", 
+  "Pandas", 
+  "Numpy", 
+  "Jupyter Notebook",
+  "Pyspark",
+  "SQL",
+  "Bash",
+  "AWS DMS",
+    "CloudWatch",
+    "Redshift",
+    "S3",
+    "Cloudformation",
+    "Glue",
+    "Lambda",
+    "SNS",
+    "StepFunctions",
+    "EC2",
+    "AWS RDS",
+    "Redshift",
+    "CloudFormation",
+  "Google Cloud Platform VM Instances",
+    "Cloud Storage",
+    "Big Query",
+    "Cloud Functions",
+  "Linux CentOS",
+  "Linux RHEL 7", 
+  "VS Code", 
+  "PyCharm",
+  "Docker",
+  "Git",
+  "Jira",
+  "Scrum", 
+  "Kanban",
+  "DevOps",  
+  "Terraform",
+  "Apache Airflow"
 ];
 
 /**
@@ -45,7 +75,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a hands-on learner who enjoys the satisfaction of solving problems independently. I am proficient in Python programming and enjoy applying my skills to various projects. In addition to my technical pursuits, I am also passionate about music and sports. I find playing the guitar to be a creative outlet, while basketball provides me with a physical challenge and an opportunity to connect with others. Swimming is my favorite way to relax and rejuvenate.";
 
 const About = () => {
   return (
